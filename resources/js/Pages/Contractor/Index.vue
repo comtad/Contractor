@@ -25,6 +25,10 @@
         </tbody>
     </table>
 
+    <td class="px-6 py-4 whitespace-nowrap">
+        <Link :href="route('create')"><button class="px-4 py-2 font-medium text-white bg-green-600 rounded-md hover:bg-blue-500 focus:outline-none focus:shadow-outline-blue active:bg-blue-600 transition duration-150 ease-in-out">Добавить</button></Link>
+
+    </td>
 
 
 </template>
